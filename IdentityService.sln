@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService", "src\IdentityService.csproj", "{5EE17A08-D4A5-BA72-E45E-B2DFC6976FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{74A6B157-89F6-4E36-9ABE-FCC7F2B9ECDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{F8556D9B-FB71-42C7-A8A3-F6620CB057ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helm-charts", "helm-charts", "{B4ED9E8C-E895-4DC7-AD05-4BD1E383FB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServiceTest", "tests\IdentityServiceTest\IdentityServiceTest.csproj", "{41D2C2DA-8146-489D-A4DE-6F51F9E57E18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EE17A08-D4A5-BA72-E45E-B2DFC6976FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE17A08-D4A5-BA72-E45E-B2DFC6976FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE17A08-D4A5-BA72-E45E-B2DFC6976FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE17A08-D4A5-BA72-E45E-B2DFC6976FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D2C2DA-8146-489D-A4DE-6F51F9E57E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D2C2DA-8146-489D-A4DE-6F51F9E57E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D2C2DA-8146-489D-A4DE-6F51F9E57E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D2C2DA-8146-489D-A4DE-6F51F9E57E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EE17A08-D4A5-BA72-E45E-B2DFC6976FA6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B4ED9E8C-E895-4DC7-AD05-4BD1E383FB8A} = {F8556D9B-FB71-42C7-A8A3-F6620CB057ED}
+		{41D2C2DA-8146-489D-A4DE-6F51F9E57E18} = {74A6B157-89F6-4E36-9ABE-FCC7F2B9ECDF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EBFBF8F-AE80-4514-99E1-D2874D24C7E8}
+	EndGlobalSection
+EndGlobal
